@@ -69,7 +69,13 @@
 
 ## Installation Instructions
 
-- Clone the repository and from the project root run: `chmod +x *.sh` then `./install.sh`.
+- Run the following commands in your terminal: 
+```bash
+git clone https://github.com/Abhiram-Rakesh/API-Monitoring-System.git
+cd API-Monitoring-System
+chmod +x *.sh
+./install.sh
+```
 - Script will: check prerequisites; prompt for alert email and region if terraform.tfvars is missing; package all three Lambdas; run Terraform init, plan, apply; deploy Lambda code; deploy frontend to S3; print website URL, API URL, and next steps.
 - After install: open the website URL; create a monitor; confirm SNS subscription and SES verification for the alert email; wait for the first health checks (interval depends on check_interval_minutes).
 - To destroy all resources: run `./shutdown.sh` and type `yes` when prompted.
@@ -100,4 +106,4 @@
 ## Credits
 
 - **By:** [Abhiram Rakesh](https://www.linkedin.com/in/abhiram-rakesh/)
-- **For:** Hyperverge
+- **For:** HyperVerge
