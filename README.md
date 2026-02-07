@@ -1,7 +1,8 @@
 # API Health Monitor
 
-**Demo video (part 1):** [Placeholder link to drive demo video 1]  
-**Demo video (part 2):** [Placeholder link to drive demo video 2]
+**Demo & Installation video:** https://drive.google.com/file/d/1FTf0vcxOEKIxX9ALfde1Fp3w8y8eaZVi/view?t=3 
+
+**Drive link:** https://drive.google.com/drive/folders/1OFazb2ErOyh-anSB0HmsZ2kjdIoFETqO
 
 ---
 
