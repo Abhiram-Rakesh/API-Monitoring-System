@@ -33,6 +33,8 @@
 ---
 
 ## Architecture
+<img width="1541" height="741" alt="API-Health-Monitoring drawio" src="https://github.com/user-attachments/assets/b6cc0106-b665-4644-9120-eeec5e377425" />
+
 
 - **Frontend:** Static site (HTML/CSS/JS) hosted on S3; uses API Gateway base URL for all API calls.
 - **API:** API Gateway REST API (prod stage) with proxy integration to the api-handler Lambda; routes: GET/POST /monitors, DELETE /monitors/{id}.
