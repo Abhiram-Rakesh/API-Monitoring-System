@@ -103,8 +103,3 @@ chmod +x *.sh
 - Full deployment and teardown are automated via install.sh and shutdown.sh; details are in the linked docs.
 
 ---
-
-## Credits
-
-- **By:** [Abhiram Rakesh](https://www.linkedin.com/in/abhiram-rakesh/)
-- **For:** HyperVerge
